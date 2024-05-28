@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hero from "./Componets/Hero";
+import Soceilicon from "./common/Soceilicon";
+import About from "./Componets/About";
+import TOKENOMICS from "./Componets/TOKENOMICS";
+import UTILITY from "./Componets/UTILITY";
+import NEWS from "./Componets/NEWS";
+import Footer from "./Componets/Footer";
+import ECOSYSTEM from "./Componets/ECOSYSTEM";
+import ROADMAP from "./Componets/ROADMAP";
+import Place from "./Componets/Place";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Soceilicon />
+      <About />
+      <TOKENOMICS />
+      <UTILITY />
+      <Place/>
+      <ECOSYSTEM />
+      <ROADMAP />
+      <NEWS />
+      <Footer />
     </div>
   );
 }
