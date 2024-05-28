@@ -20,7 +20,7 @@ const ECOSYSTEM = () => {
             <div className="col-lg-6 col-12 pt-4">
               <div className=" about_pheragraph">
               <div className=" allicons_box d-flex flex-md-nowrap flex-wrap align-items-center gap-sm-4 gap-2">
-                  <a href="">
+                  <a href="http://dextools.io/" target="blank">
                     {" "}
                     <img src={decbox} alt="decbox" />
                   </a>
@@ -28,11 +28,11 @@ const ECOSYSTEM = () => {
                     {" "}
                     <img src={horse} alt="horse" />
                   </a>
-                  <a href="">
+                  <a href="https://twitter.com/?lang=en" target="blank">
                     {" "}
                     <img src={tweter} alt="tweter" />
                   </a>
-                  <a href="">
+                  <a href="https://telegram.org/">
                     {" "}
                     <img src={teligram} alt="teligram" />
                   </a>
