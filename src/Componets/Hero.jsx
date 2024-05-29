@@ -22,18 +22,19 @@ const Hero = () => {
       <div className=" bg-black position-relative">
         <Navbaar />
         <div className="container  pt-136 pb-91">
-          <h2 className=" ff-inter fw_900 text-108 lh-130 text-white">
+          <h2 data-aos="zoom-in" className=" ff-inter fw_900 text-108 lh-130 text-white">
             G<span className=" color_yellow">G</span>
           </h2>
-          <p className=" position-relative z-1 mb-0 ff-inter fw-semibold text-20 lh-24 text-capitalize  text-white">
+          <p data-aos="zoom-in" className=" position-relative z-1 mb-0 ff-inter fw-semibold text-20 lh-24 text-capitalize  text-white">
             Join The <span className=" color_yellow">Worldwide Blockchain</span>{" "}
             Protest Against Corrupt{" "}
             <span className=" d-lg-block">Government Bodies</span>
           </p>
 
-          <div className=" d-flex gap-20 pt-62 ">
+          <div data-aos="zoom-in" className=" d-flex gap-20 pt-62 ">
             <Commonbtn text="Buy $GrayGensler" />
-            <Commonbtn text="How To Buy?" />
+            
+            <button className="buy_btn ff-inter text-white fw-semibold text-16 lh-29">How To Buy?</button>
           </div>
           <div className="input-container mt-36  d-flex  align-items-center position-relative z-1">
             <input

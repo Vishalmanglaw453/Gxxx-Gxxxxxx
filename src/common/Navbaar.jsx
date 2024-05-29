@@ -1,6 +1,6 @@
 import React from "react";
 import { Teligram, Tweter } from "./Icon";
-import Dactol from "../image/svg/dextools_logo.png.svg";
+import Dactol from "../image/png/dextools_logo.png.png";
 import Commonbtn from "./Commonbtn";
 import { useState } from "react";
 const Navbaar = () => {
@@ -19,7 +19,7 @@ const Navbaar = () => {
       <div className="  bg-black">
         <div className="container pt-35">
           <nav className=" d-flex align-items-center justify-content-between">
-            <h3 className=" mb-0 lh-48 text-40 ff-inter fw-bolder text-white">
+            <h3 className=" cursel_pointer mb-0 lh-48 text-40 ff-inter fw-bolder text-white">
               Gxxx Gxxxxxx
             </h3>
 

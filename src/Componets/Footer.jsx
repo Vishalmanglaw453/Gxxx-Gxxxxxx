@@ -1,5 +1,5 @@
 import React from "react";
-import Dactol from "../image/svg/dextools_logo.png.svg";
+import Dactol from "../image/png/dextools_logo.png.png";
 import { Teligram, Tweter } from "../common/Icon";
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://twitter.com/?lang=en"
                     className=" ff-inter fw-normal text-16 lh-25 text-white"
                   >
                     Twitter
@@ -32,7 +32,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://telegram.org/"
                     className=" ff-inter fw-normal text-16 lh-25 text-white"
                   >
                     Telegram
@@ -40,7 +40,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="http://dextools.io/"
                     className=" ff-inter fw-normal text-16 lh-25 text-white"
                   >
                     DexTools

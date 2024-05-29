@@ -10,9 +10,14 @@ import NEWS from "./Componets/NEWS";
 import Footer from "./Componets/Footer";
 import ECOSYSTEM from "./Componets/ECOSYSTEM";
 import ROADMAP from "./Componets/ROADMAP";
-import Place from "./Componets/Place";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ once: true, duration: 2500 });
+  }, []);
   return (
     <div className="App">
       <Hero />
@@ -20,7 +25,6 @@ function App() {
       <About />
       <TOKENOMICS />
       <UTILITY />
-      <Place/>
       <ECOSYSTEM />
       <ROADMAP />
       <NEWS />

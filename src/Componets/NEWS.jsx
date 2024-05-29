@@ -11,13 +11,13 @@ const NEWS = () => {
         <img className=" d-lg-block d-none" src={phone_ellipe} alt="phone_ellipe" />
         <img className=" d-lg-block d-none" src={laptop_ellipe} alt="laptop_ellipe" />
         <div className="container pt-125 position-relative">
-          <h2 className=" text-center  ff-inter fw_900 mt-20  mt-26 text-64 lh-77 mb-0 text-black">
+          <h2 data-aos="zoom-in" className=" text-center  ff-inter fw_900 mt-20  mt-26 text-64 lh-77 mb-0 text-black">
             LATEST NEWS
           </h2>
           <div className=" pt-96 d-flex  flex-wrap justify-content-center  gap-20">
             {Newscard.map((data, index) => (
               <>
-                <div className=" news_card">
+                <div data-aos="zoom-in" className=" news_card">
                   <div className=" d-flex align-items-center gap-14">
                     <div>
                       <img src={data.Img} alt="newsimg" />

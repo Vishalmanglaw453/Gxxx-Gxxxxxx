@@ -56,10 +56,10 @@ const ROADMAP = () => {
       <img className=" w-100" src={topblacklayer} alt="topblacklayer" />
       <div className="top_bottom_speacing bg-black pb-150">
         <div className="container pt-68 ">
-          <h2 className=" text-center  ff-inter fw_900  text-64 lh-77 mb-0 text-white">
+          <h2 data-aos="zoom-in" className=" text-center  ff-inter fw_900  text-64 lh-77 mb-0 text-white">
             ROADMAP
           </h2>
-          <p className="  mt-20 mb-0 ff-inter text-center opacity-75 fw-normal text-16 lh-30 text-white">
+          <p data-aos="zoom-in" className="  mt-20 mb-0 ff-inter text-center opacity-75 fw-normal text-16 lh-30 text-white">
             Our roadmap isn't just a journey; it's a comedic adventure through
             the cryptoverse, filled with twists, turns, and plenty{" "}
             <span className=" d-lg-block">
